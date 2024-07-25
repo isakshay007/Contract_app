@@ -130,8 +130,9 @@ os.makedirs(data_directory, exist_ok=True)
 # Remove existing files in the data directory
 remove_existing_files(data_directory)
 
+
 # File upload widget
-uploaded_file = st.file_uploader("Choose a Word file (.docx)", type=["docx"])
+uploaded_file = st.file_uploader(" ", type=["docx"])
 
 if uploaded_file is not None:
     # Save the uploaded Word file to the data directory
