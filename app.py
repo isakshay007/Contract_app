@@ -75,6 +75,20 @@ st.markdown(
         color: #007BFF;
         font-weight: bold;
     }
+    .sidebar .sidebar-content a {
+        color: #ffffff;
+    }
+    .stSidebar {
+        background-color: #e9f5ff;
+        border-left: 5px solid #007BFF;
+        color: #333333;
+        font-size: 1.1em;
+        font-weight: bold;
+        padding: 10px;
+    }
+    .main h1, .main h2, .main h3 {
+        color: #333333;
+    }
     </style>
     """,
     unsafe_allow_html=True,
@@ -178,4 +192,3 @@ st.sidebar.markdown(
     """
 )
 st.sidebar.info("For any inquiries, please contact us via our [Support Page](https://www.lyzr.ai/support).")
-
