@@ -56,7 +56,7 @@ st.markdown(
     .stFileUploader>label {
         font-size: 1.1em;
         font-weight: bold;
-        color: #007BFF;
+        color: #333333;
     }
     .stMarkdown {
         font-size: 1.1em;
@@ -79,9 +79,8 @@ st.markdown(
         color: #ffffff;
     }
     .stSidebar {
-        background-color: #e9f5ff;
-        border-left: 5px solid #007BFF;
-        color: #333333;
+        background-color: #333333;
+        color: #ffffff;
         font-size: 1.1em;
         font-weight: bold;
         padding: 10px;
@@ -191,4 +190,11 @@ st.sidebar.markdown(
     - [Slack](https://join.slack.com/t/genaiforenterprise/shared_invite/zt-2a7fr38f7-_QDOY1W1WSlSiYNAEncLGw)
     """
 )
-st.sidebar.info("For any inquiries, please contact us via our [Support Page](https://www.lyzr.ai/support).")
+st.sidebar.markdown(
+    """
+    <div class="stSidebar">
+    For any inquiries, please contact us via our <a href="https://www.lyzr.ai/support" target="_blank">Support Page</a>.
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
