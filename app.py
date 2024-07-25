@@ -132,7 +132,7 @@ remove_existing_files(data_directory)
 
 
 # File upload widget
-uploaded_file = st.file_uploader(" ", type=["docx"])
+uploaded_file = st.file_uploader("Choose a Word file (.docx)", type=["docx"])
 
 if uploaded_file is not None:
     # Save the uploaded Word file to the data directory
