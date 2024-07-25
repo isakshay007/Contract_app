@@ -56,7 +56,7 @@ st.markdown(
     .stFileUploader>label {
         font-size: 1.1em;
         font-weight: bold;
-        color: #333333;
+        color: #000000;
     }
     .stMarkdown {
         font-size: 1.1em;
@@ -189,12 +189,4 @@ st.sidebar.markdown(
     - [Discord](https://discord.gg/nm7zSyEFA2)
     - [Slack](https://join.slack.com/t/genaiforenterprise/shared_invite/zt-2a7fr38f7-_QDOY1W1WSlSiYNAEncLGw)
     """
-)
-st.sidebar.markdown(
-    """
-    <div class="stSidebar">
-    For any inquiries, please contact us via our <a href="https://www.lyzr.ai/support" target="_blank">Support Page</a>.
-    </div>
-    """,
-    unsafe_allow_html=True,
 )
