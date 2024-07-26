@@ -102,7 +102,7 @@ st.title("Contract Analyzer💼")
 st.markdown("### Built using Lyzr SDK🚀")
 st.markdown(
     """
-    Welcome to our Contract Analyzer app! Simply upload your contracts, and we'll provide you with:
+    Welcome to our Contract Analyzer app! Simply upload your contracts(such as Residential Lease Agreement), and we'll provide you with:
     - **Clear risk insights**
     - **Easy-to-understand explanations**
     - **Practical suggestions** to help you get the best out of your agreements.
