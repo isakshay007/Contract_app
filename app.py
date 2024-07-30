@@ -8,7 +8,7 @@ import time
 os.environ["OPENAI_API_KEY"] = st.secrets["apikey"]
 
 st.set_page_config(
-    page_title="Lyzr Contract Analyzer💼",
+    page_title="Lyzr Contract Analyzer 💼",
     layout="centered",
     initial_sidebar_state="auto",
     page_icon="./logo/lyzr-logo-cut.png",
