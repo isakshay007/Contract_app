@@ -8,7 +8,7 @@ import time
 os.environ["OPENAI_API_KEY"] = st.secrets["apikey"]
 
 st.set_page_config(
-    page_title="Lyzr Contract Analyzer 💼",
+    page_title="Lyzr Contract Analyzer",
     layout="centered",
     initial_sidebar_state="auto",
     page_icon="./logo/lyzr-logo-cut.png",
@@ -98,8 +98,8 @@ image = Image.open("./logo/lyzr-logo.png")
 st.image(image, width=150)
 
 # App title and introduction
-st.title("Contract Analyzer💼")
-st.markdown("### Built using Lyzr SDK🚀")
+st.title("Contract Analyzer 💼")
+st.markdown("### Built using Lyzr SDK 🚀")
 st.markdown(
     """
     Welcome to our Contract Analyzer app! Simply upload your contract such as your Lease Agreement, and we'll provide you with:
